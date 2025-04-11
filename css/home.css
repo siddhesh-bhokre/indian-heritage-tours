@@ -399,9 +399,22 @@
 }
 @media (max-width: 768px) {
   #Home {
-    height: 50vh;
+    height: 60vh; 
+    padding: 20px 10px;
   }
-  
+
+  #Home h1 {
+    font-size: 2rem;
+  }
+
+  #Home p {
+    font-size: 1rem;
+  }
+
+  .explore-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
 }
 
 
