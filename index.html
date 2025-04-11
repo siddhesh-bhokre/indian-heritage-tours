@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Indian Heritage and Cultural Tours</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/guide.css">
+  </head>
+  <body>
+    <header>
+      <div class="top-logo">
+        <img src="logo.png" alt="Indian Heritage Logo" class="logo" />
+        <h1>Indian Heritage <span>and Cultural Tours</span></h1>
+      </div>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+          <li><a href="#" onclick="loadContent('home')">Home</a></li>
+          <li class="dropdown">
+            <a href="#" onclick="loadContent('destination-list')">
+              Heritage Destinations<span class="arrow">&#9662;</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" onclick="loadContent('destination-list')">Gateway of India</a>
+              </li>
+              <li>
+                <a href="#" onclick="loadContent('destination-list')">Ajanta Caves</a>
+              </li>
+              <li>
+                <a href="#" onclick="loadContent('destination-list')">Shaniwar Wada</a>
+              </li>
+              <li><a href="#" onclick="loadContent('destination-list')">Hampi</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" onclick="loadContent('travel-guide')">
+              Travel Guide <span class="arrow">&#9662;</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" onclick="loadContent('travel-guide')">Travel Tips</a>
+              </li>
+              <li>
+                <a href="#" onclick="loadContent('travel-guide')"
+                  >Cultural Customs</a
+                >
+              </li>
+              <li>
+                <a href="#" onclick="loadContent('travel-guide')">Local Languages</a>
+              </li>
+              <li>
+                <a href="#" onclick="loadContent('travel-guide')">Average Stay Cost</a>
+              </li>
+            </ul>
+          </li>
+
+          <li><a href="#" onclick="loadContent('about')">About Us</a></li>
+          <li><a href="#"  onclick="loadContent('enquiry')">Enquire Now</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content"></main>
+    <script src="script.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
