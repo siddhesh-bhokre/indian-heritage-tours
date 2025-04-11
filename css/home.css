@@ -6,7 +6,7 @@
 }
 
 #Home .bg {
-  background-image: url("./tajmahal.jpg");
+  background-image: url("/destinations/tajmahal.jpg");
   background-position: center center;
   object-fit: contain;
   background-size: cover;
