@@ -6,7 +6,7 @@
 }
 
 #Home .bg {
-  background-image: url("https://siddhesh-bhokre.github.io/indian-heritage-tours/destinations/tajmahal.jpg");
+  background-image: url("../destination-list/indian.jpg");
   background-position: center center;
   object-fit: contain;
   background-size: cover;
