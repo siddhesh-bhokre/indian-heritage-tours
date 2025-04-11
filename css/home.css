@@ -397,6 +397,12 @@
 .btn:hover {
   background-color: #084298;
 }
+@media (max-width: 768px) {
+  #Home {
+    height: 50vh;
+  }
+  
+}
 
 
 
