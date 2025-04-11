@@ -1,0 +1,62 @@
+<section class="enquiry-section" id="enquiry">
+  <h2>📨 Enquiry Form</h2>
+  <p>Plan your cultural journey with us. Fill in your details and we'll reach out with a customized heritage tour plan.</p>
+  <form class="enquiry-form" id="tourForm" onsubmit="return validateForm(event)" novalidate>
+    <div class="form-row">
+      <input type="text" id="name" name="fullname" placeholder="👤 Full Name *" required />
+      <input type="email" id="email" name="email" placeholder="📧 Email Address *" required />
+    </div>
+  
+    <div class="form-row">
+      <select id="destination" name="destination" required>
+        <option value="" disabled selected>🌍 Choose Destination</option>
+        <option value="Ajanta Caves">Ajanta Caves</option>
+        <option value="Ellora Caves">Ellora Caves</option>
+        <option value="Shaniwar Wada">Shaniwar Wada</option>
+        <option value="Gateway of India">Gateway of India</option>
+        <option value="Raigad Fort">Raigad Fort</option>
+        <option value="Sinhagad Fort">Sinhagad Fort</option>
+        <option value="Bibi Ka Maqbara">Bibi Ka Maqbara</option>
+        <option value="Elephanta Caves">Elephanta Caves</option>
+      </select>
+  
+      <select id="departure" name="departure" required>
+        <option value="" disabled selected>🏙️ City of Departure</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Nagpur">Nagpur</option>
+        <option value="Nashik">Nashik</option>
+        <option value="Chhatrapati Sambhajinagar">Chhatrapati Sambhajinagar</option>
+        <option value="Kolhapur">Kolhapur</option>
+        <option value="Solapur">Solapur</option>
+        <option value="Amravati">Amravati</option>
+      </select>
+    </div>
+  
+    <div class="form-row">
+      <input type="tel" id="phone" name="phone" placeholder="📞 Phone Number *" required />
+      <input type="date" id="date" name="travel-date" required />
+    </div>
+  
+    <div class="form-row">
+      <select name="adults" required>
+        <option value="" disabled selected>👥 No. of Adults</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4+</option>
+      </select>
+      <select name="children" required>
+        <option value="" disabled selected>🧒 No. of Children</option>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3+</option>
+      </select>
+    </div>
+  
+    <textarea name="message" placeholder="✍️ Any special requirements (optional)"></textarea>
+    <button class="submit-btn" type="submit">Submit Enquiry</button>
+  </form>
+  
+</section>
