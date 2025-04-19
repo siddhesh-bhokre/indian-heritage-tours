@@ -240,7 +240,6 @@ body {
   }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .navbar .nav-links {
     display: none;
@@ -280,7 +279,7 @@ body {
     text-align: center;
   }
   .guide-box {
-    flex: 1 1 100%; /* 1 per row on mobiles */
+    flex: 1 1 100%; 
   }
 
   .intro h2 {
